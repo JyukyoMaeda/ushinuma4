@@ -1,0 +1,126 @@
+.l-contents{
+	width: 100%;
+	height: auto;
+	&.-img{// 背景画像のみ
+		width: 100%;
+		height: auto;
+	}
+	&.-img-bg{// 背景画像＋コンテンツ
+		position: relative;
+		.imgBox{// 背景画像
+			width: 100%;
+			height: auto;
+			&.-parallax{//パラドックス背景の場合、ここは透明画像
+				justify-content: center;
+				align-items: center;
+
+				background-attachment: fixed;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				&.-parallax_bg{//ここに背景を指定する。
+					// background-image: url(../images/bg/header_bg_s.jpg);
+					@include mq(tb){
+						background-image: url(../images/bg/premium-plan_bg-min.jpg);
+					}
+				}
+				&.-parallax_bg02{//ここに背景を指定する。
+					// background-image: url(../images/bg/header_bg_s.jpg);
+					@include mq(tb){
+						background-image: url(../images/bg/hinokiArea_bg-min.jpg);
+					}
+				}
+				&.-parallax_bg03{//ここに背景を指定する。
+					// background-image: url(../images/bg/header_bg_s.jpg);
+					@include mq(tb){
+						background-image: url(../images/bg/tokorozawa-kokuu-park_bg-min.jpg);
+					}
+				}
+			}
+		}
+		.l-contentsBox{// コンテンツ要素
+			width: 100%;
+			position: absolute;
+			//サイト右側中段に表示 （PCのみ）
+			&.-topBtn{
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 100%;
+				a{
+					display: block;
+					padding: 15% 23%;
+				}
+			}
+			// サイト下部に表示（SPのみ）
+			&.-btmBtn{
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 100%;
+				a{
+					display: block;
+					padding: 8% 23%;
+				}
+			}
+			.l-contentsBox--wrapper{
+				width: 100%;
+				height: auto;
+				@include mq(tb){
+					width: 100%;
+					max-width: 1315px;
+					margin: auto;
+
+				}
+			}
+			&.-text{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			&.-premium{
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			&.-btn{
+				width: 45%;
+				top: 50%;
+				left: 60%;
+				
+				@include mq(tb){
+					width: 14%;
+					top: 86%;
+					left: 46.5%;
+				}
+			}
+		}
+	}
+	// 基本的にSliderは、「Slick or Swiper」を使用すること
+	// 場所：「Scss/introduction内」
+	&.-slider{
+		//下記スマホ以上
+		@include mq(tb){
+		}
+	}
+	&.-btnArea{
+		position: relative;
+		height: 60vh;
+		@include mq(tb){
+			height: 60vh;
+		}
+		.l-contentsBox{
+			position: absolute;
+			&.-setsubiBtn{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				width: 45%;
+				@include mq(tb){
+					width: 20%;
+				}
+			}
+		}
+	}
+}
+
