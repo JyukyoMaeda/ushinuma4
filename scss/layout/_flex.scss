@@ -20,6 +20,19 @@
 				}
 			}
 		}
+		// スマホ時 > 順番逆
+		&.-reverse_s{
+			@include mq(sp){
+				.flexItem{
+					&:nth-child(1){
+						order: 2;
+					}
+					&:nth-child(2){
+						order: 1;
+					}
+				}
+			}
+		}
 		&.-columnBox{
 			display: flex;
 			flex-wrap: wrap;

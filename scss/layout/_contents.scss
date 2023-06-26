@@ -19,13 +19,13 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				&.-parallax_bg{//ここに背景を指定する。
-					// background-image: url(../images/bg/header_bg_s.jpg);
+					background-image: url(../images/bg/premium-plan_bg-min.jpg);
 					@include mq(tb){
 						background-image: url(../images/bg/premium-plan_bg-min.jpg);
 					}
 				}
 				&.-parallax_bg02{//ここに背景を指定する。
-					// background-image: url(../images/bg/header_bg_s.jpg);
+					background-image: url(../images/bg/hinokiArea_bg-min.jpg);
 					@include mq(tb){
 						background-image: url(../images/bg/hinokiArea_bg-min.jpg);
 					}
@@ -79,18 +79,21 @@
 				transform: translate(-50%,-50%);
 			}
 			&.-premium{
-				top: 60%;
+				top: 55%;
 				left: 50%;
 				transform: translate(-50%,-50%);
+				@include mq(tb){
+					top: 60%;
+				}
 			}
 			&.-btn{
 				width: 45%;
-				top: 50%;
-				left: 60%;
+				top: 95%;
+				left: 46%;
 				
 				@include mq(tb){
 					width: 14%;
-					top: 86%;
+					top: 87%;
 					left: 46.5%;
 				}
 			}
@@ -112,12 +115,24 @@
 		.l-contentsBox{
 			position: absolute;
 			&.-setsubiBtn{
-				top: 50%;
-				left: 50%;
+				top: 20%;
+				left: 55%;
 				transform: translate(-50%,-50%);
 				width: 45%;
 				@include mq(tb){
+					top: 25%;
 					width: 20%;
+				}
+			}
+			&.-contact-column3{
+				top: 65%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+
+				width: 70%;
+				@include mq(tb){
+					top: 65%;
+					width: 90%;
 				}
 			}
 		}

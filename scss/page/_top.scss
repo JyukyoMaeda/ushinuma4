@@ -3,14 +3,21 @@
     .planTitle{
         position: relative;
         &::after{
-            content: url(../images/item/planTitle_bg-min.png);
-            width: 300px;
-            height: 300px;
+            content:"";
+            width: 56%;
+            height: 200%;
+            background: url(../images/item/planTitle_bg-min.png) no-repeat;
+            background-size: contain;
+
             position: absolute;
             top: 50%;
-            left: -10%;
+            left: 17%;
             transform: translateY(-50%);
             z-index: -1;
+            @include mq(tb){
+                top: 50%;
+                left: -10%;
+            }
         }
     }
     .planItem{

@@ -18,14 +18,14 @@
 
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/query.colorbox-min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/slick.min.js"></script> -->
     <script src="js/aos.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/pagetop.js"></script>
 
     <!-- swiper関係 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
     <!-- //swiper関係 -->
 
 
@@ -75,11 +75,11 @@
                     <!--ナビゲーション-->
                     <div class="navi_inner">
                             <div class="navi_item"><a href="#">トップ</a></div>
-                            <div class="navi_item"><a href="#content1">コンテンツ1</a></div>
-                            <div class="navi_item"><a href="#content2">コンテンツ2</a></div>
-                            <div class="navi_item"><a href="#content3">コンテンツ3</a></div>
-                            <div class="navi_item"><a href="#content4">コンテンツ4</a></div>
-                            <div class="navi_item"><a href="#content5">コンテンツ5</a></div>
+                            <div class="navi_item"><a href="#content1">全体区画図</a></div>
+                            <div class="navi_item"><a href="#content2">参考プラン</a></div>
+                            <div class="navi_item"><a href="#content3">お客様の声</a></div>
+                            <div class="navi_item"><a href="#content4">オーナー様の声</a></div>
+                            <div class="navi_item"><a href="#content5">周辺環境</a></div>
                     </div>
                     <ul class="btnArea">
                             <li><a href="https://www.jyu-g.co.jp/contents/tour?checkid=712796635">見学予約</a></li>
@@ -100,97 +100,115 @@
             <div class="l-header l-contents -img-bg">
                 <div class="imgBox">
                     <img class="pc" src="images/bg/header-min.png" alt="物件の情報">
-                    <img class="sp" src="images/bg/header_s.jpg" alt="物件の情報">
+                    <img class="sp" src="images/bg/header_s-min.png" alt="物件の情報">
                 </div>
             </div>
             <!-- トップコンテンツ -->
             <div class="l-contents -img">
                 <img class="pc" src="images/bg/top-min.jpg" alt="">
-                <img class="sp" src="images/bg/top_s.jpg" alt="">
+                <img class="sp" src="images/bg/top_s-min.jpg" alt="">
             </div>
             <!-- コンテンツ1 -->
-            <div id="content1" class="l-contents -img">
+            <div id="content1" class="l-contents -img l-pdt_10">
                 <img class="pc" src="images/bg/land.png" alt="">
-                <img class="sp" src="images/bg/land_s.jpg" alt="">
+                <img class="sp" src="images/bg/land_s-min.jpg" alt="">
             </div>
             <!-- ボタンエリア -->
-            <div class="l-contents -btnArea w1200 w93_s">
+            <div class="l-contents -btnArea w1050 w93_s">
                 <div class="l-contentsBox -setsubiBtn">
-                    <a href="" class="l-linkImg -p03">
+                    <a href="setsubi.html" class="l-linkImg -p03">
                         <img src="images/btn/setsubi_btn02_1-min.png" alt="複数のメーカーから選べる。多機能設備・仕様、詳細はコチラ">
                     </a>
                 </div>
-            </div>
-            <div class="l-contents -btnArea w1050 w93_s">
-                <div class="l-flex--area">
-                    <div class="l-flex--contents -columnBox03">
-                        <div class="flexItem">
-                            <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712796635" class="l-linkImg -p03"><img src="images/btn/contact-wide-01-min.png" alt="見学予約"></a>
-                        </div>
-                        <div class="flexItem">
-                            <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712796635" class="l-linkImg -p03"><img src="images/btn/contact-wide-02-min.png" alt="資料請求"></a>
-                        </div>
-                        <div class="flexItem">
-                            <a href="https://www.jyu-g.co.jp/contents/regist?form_mode=1" class="l-linkImg -p03"><img src="images/btn/contact-wide-03-min.png" alt="会員登録"></a>
+                <div class="l-contentsBox -contact-column3">
+                    <div class="l-flex--area">
+                        <div class="l-flex--contents -columnBox03">
+                            <div class="flexItem l-mgb_2_s">
+                                <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712796635" class="l-linkImg -p03"><img src="images/btn/contact-wide-01-min.png" alt="見学予約"></a>
+                            </div>
+                            <div class="flexItem l-mgb_2_s">
+                                <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712796635" class="l-linkImg -p03"><img src="images/btn/contact-wide-02-min.png" alt="資料請求"></a>
+                            </div>
+                            <div class="flexItem">
+                                <a href="https://www.jyu-g.co.jp/contents/regist?form_mode=1" class="l-linkImg -p03"><img src="images/btn/contact-wide-03-min.png" alt="会員登録"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- プランエリア -->
-            <div class="l-contents -planArea w1200 w93-s l-mgb_20">
-                <h2 class="planTitle l-mgb_10"><img src="images/item/planArea-title.png" alt=""></h2>
-                <div class="planItem -left l-mgb_10">
-                    <div class="l-contents -img-bg">
-                        <div class="imgBox">
-                            <img src="images/item/plan-item01_bg-min.jpg" alt="">
-                        </div>
-                        <div class="l-contentsBox -text">
-                            <img src="images/SVG/plan-item01_text.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="planItem -right">
-                    <div class="l-contents -img-bg">
-                        <div class="imgBox">
-                            <img src="images/item/plan-item02_bg-min.jpg" alt="">
-                        </div>
-                        <div class="l-contentsBox -text">
-                            <img src="images/SVG/plan-item02_text.svg" alt="">
+            <div id="content2" class="l-contents -planArea w1200 l-pdt_10 l-mgb_20">
+                <h2 class="planTitle l-mgb_10">
+                    <img class="sp" src="images/item/planArea-title_s-min.png" alt="">
+                    <img class="pc" src="images/item/planArea-title.png" alt="">
+                </h2>
+                <div class="w93-s">
+                    <div class="planItem -left l-mgb_10 -s_5" data-aos="fade-right">
+                        <div class="l-contents -img-bg">
+                            <div class="imgBox">
+                                <img class="sp" src="images/item/plan-item01_bg_s-min.jpg" alt="">
+                                <img class="pc" src="images/item/plan-item01_bg-min.jpg" alt="">
+                            </div>
+                            <div class="l-contentsBox -text">
+                                <img class="pc" src="images/SVG/plan-item01_text.svg" alt="">
+                            </div>
                         </div>
                     </div>
+                    <div class="planItem -right" data-aos="fade-left">
+                        <div class="l-contents -img-bg">
+                            <div class="imgBox">
+                                <img class="sp" src="images/item/plan-item02_bg_s-min.jpg" alt="">
+                                <img class="pc" src="images/item/plan-item02_bg-min.jpg" alt="">
+                            </div>
+                            <div class="l-contentsBox -text">
+                                <img class="pc" src="images/SVG/plan-item02_text.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                                        
                 </div>
             </div>
             <!-- 背景画像エリア -->
             <div class="l-contents -img-bg l-mgb_20">
                 <div class="imgBox -parallax -parallax_bg">
-                    <img src="images/bg/premium-plan_bg_cover-min.png" alt="半透明画像">
+                    <img class="sp" src="images/bg/premium-plan_bg_cover_s-min.png" alt="半透明画像">
+                    <img class="pc" src="images/bg/premium-plan_bg_cover-min.png" alt="半透明画像">
                 </div>
                 <div class="l-contentsBox -premium">
                     <div class="l-flex--area w1200 w93-s">
                         <div class="l-flex--contents -columnBox04">
-                            <div class="flexItem"><img src="images/item/premium-planItem01-min.png" alt=""></div>
-                            <div class="flexItem"><img src="images/item/premium-planItem02-min.png" alt=""></div>
-                            <div class="flexItem"><img src="images/item/premium-planItem03-min.png" alt=""></div>
-                            <div class="flexItem"><img src="images/item/premium-planItem04-min.png" alt=""></div>
+                            <div class="flexItem l-mgb_5_s">
+                                <img class="" src="images/item/premium-planItem01-min.png" alt="">
+                            </div>
+                            <div class="flexItem l-mgb_5_s">
+                                <img class="" src="images/item/premium-planItem02-min.png" alt="">
+                            </div>
+                            <div class="flexItem">
+                                <img class="" src="images/item/premium-planItem03-min.png" alt="">
+                            </div>
+                            <div class="flexItem">
+                                <img class="" src="images/item/premium-planItem04-min.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- インタビューエリア -->
-            <div class="l-contents -img-bg l-mgb_20">
+            <div id="content3" class="l-contents -img-bg l-pdt_10 l-mgb_20">
                 <div class="imgBox">
-                    <img src="images/bg/interviewArea-bg-min.jpg" alt="">
+                    <img class="sp" src="images/bg/interviewArea-bg_s-min.jpg" alt="">
+                    <img class="pc" src="images/bg/interviewArea-bg-min.jpg" alt="">
                 </div>
                 <div class="l-contentsBox -btn">
-                    <a href="" class="l-linkImg -p03">
+                    <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712796635" class="l-linkImg -p03">
                         <img src="images/btn/contact-seikyu_btn-min.png" alt="資料請求はこちら">
                     </a>
                 </div>
             </div>
             <!-- オーナー様の声エリア -->
-            <div class="l-contents -img l-mgb_5">
-                <img src="images/bg/ownerArea-bg-min.jpg" alt="">
+            <div id="content4" class="l-contents -img  l-pdt_10 l-mgb_5">
+                <img class="sp" src="images/bg/ownerArea-bg_s-min.jpg" alt="">
+                <img class="pc" src="images/bg/ownerArea-bg-min.jpg" alt="">
             </div>
             <!-- YOUTUBEエリア -->
             <div class="l-contents -youtubeArea w1200 w93-s tb-w67 l-mgb_20 -s_5">
@@ -213,50 +231,70 @@
             <!-- 檜の家エリア／背景画像エリア -->
             <div class="l-contents -img-bg">
                 <div class="imgBox -parallax -parallax_bg02">
-                    <img src="images/bg/hinokiArea_bg_cover-min.png" alt="">
+                    <img class="sp" src="images/bg/hinokiArea_bg_cover_s-min.png" alt="">
+                    <img class="pc" src="images/bg/hinokiArea_bg_cover-min.png" alt="">
                 </div>
             </div>
             <!-- 黒背景 -->
             <div class="l-contents -youtubeArea" style="background: #231815;">
                 <div class="l-flex--area w1200 tb-w67 w93-s l-pdt_5 l-pdb_5">
-                    <div class="l-flex--contents -columnBox -w_6-4">
+                    <div class="l-flex--contents -columnBox -w_6-4 -reverse_s">
                         <div class="flexItem picArea -youtubeBox">
                             <img class="tb-w95 l-mgb_3" src="images/SVG/special-movie_text.svg" alt="">
                             <div class="youtubeArea-wrapper">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/MWmtREq-g5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <div class="flexItem -textArea">
-                            <img src="images/item/hinoki-item02-min.png" alt="">
+                        <div class="flexItem -textArea l-mgb_2_s">
+                            <img class="sp" src="images/item/hinoki-item02_s-min.png" alt="">
+                            <img class="pc" src="images/item/hinoki-item02-min.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 周辺環境 -->
-            <div class="l-contents -img">
+            <div id="content5" class="l-contents -img">
+                <div class="sp">
+                    <img class="l-mgb_2" src="images/bg/location_bg_s-min.jpg" alt="Life Information">
+                    <img src="images/bg/location03_bg_s-min.jpg" alt="エンジョイ">
+                    <img class="l-mgb_5" src="images/bg/location02_bg_s-min.jpg" alt="ショッピング">
+                </div>
                 <div class="pc">
-                    <img class="l-mgb_10" src="images/bg/location_bg-min.jpg" alt="">
-                    <img src="images/bg/location02_bg-min.jpg" alt="">
-                    <img src="images/bg/location03_bg-min.jpg" alt="">
+                    <img src="images/bg/location_bg-min.jpg" alt="Life Information">
+                    <img src="images/bg/location03_bg-min.jpg" alt="エンジョイ">
+                    <img class="l-mgb_5" src="images/bg/location02_bg-min.jpg" alt="ショッピング">
                 </div>
             </div>
             <!-- 所沢航空記念公園 -->
-            <div class="l-contents -img-bg">
+            <div class="pc l-contents -img-bg">
                 <div class="imgBox -parallax -parallax_bg03">
                     <img src="images/bg/tokorozawa-kokuu-park_bg-min.jpg" alt="">
                 </div>
                 <div class="l-contentsBox -text"><img src="images/bg/tokorozawa-kokuu-park_bg_cover-min.png" alt=""></div>
             </div>
             <div class="l-contents -img">
-                <img src="images/bg/tokorozawa-kokuu-park_content-min.jpg" alt="">
+                <img class="sp" src="images/bg/tokorozawa-kokuu-park_content_s-min.jpg" alt="">
+                <img class="pc" src="images/bg/tokorozawa-kokuu-park_content-min.jpg" alt="">
             </div>
             <!-- アクセス -->
             <div class="l-contents -img l-mgb_10">
-                <img src="images/bg/access_bg-min.jpg" alt="">
-                <img src="images/bg/access_content-min.png" alt="">
+                <div class="sp">
+                    <img src="images/bg/access_bg_s-min.jpg" alt="">
+                </div>
+                <div class="pc">
+                    <img src="images/bg/access_bg-min.jpg" alt="">
+                    <img src="images/bg/access_content-min.png" alt="">
+                </div>
             </div>
 
         </div>
+    </div>
+
+    <!-- 所沢タウンバナー -->
+    <div class="l-contents -img w1050 w93-s l-mgb_10">
+        <a href="https://www.jyu-g.co.jp/special/tokorozawatown/" class="l-linkImg -p03">
+            <img src="images/item/toko_bnr.jpg" alt="所沢の暮らしバナー">
+        </a>
     </div>
     <!-- 概要 -->
     <div class="gaiyo_wrap l-mgb_5">
