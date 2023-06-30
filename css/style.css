@@ -147,8 +147,10 @@ img {
   max-width: 1300px;
   margin: auto;
 }
-.w1200.-s100 {
-  width: 100% !important;
+@media screen and (max-width: 768px) {
+  .w1200.-s100 {
+    width: 100% !important;
+  }
 }
 
 .w1050 {
@@ -233,6 +235,12 @@ img {
 @media screen and (max-width: 768px) {
   .l-mgb_-2_s {
     margin-top: -2vh !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .l-mgt_-4_s {
+    margin-top: -4vh !important;
   }
 }
 
@@ -479,7 +487,6 @@ img {
 }
 
 .l-container {
-  width: 100%;
   height: auto;
 }
 
@@ -669,7 +676,6 @@ img {
 }
 .l-flex--area .l-flex--contents.-columnBox .flexItem {
   width: 100%;
-  padding: 0 5%;
 }
 @media screen and (min-width: 767px) {
   .l-flex--area .l-flex--contents.-columnBox .flexItem {

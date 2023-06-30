@@ -93,7 +93,9 @@ img{
 	max-width: 1300px;
 	margin: auto;
 	&.-s100{
-		width: 100% !important;
+		@include mq(sp){
+			width: 100% !important;
+		}
 	}
 }
 .w1050{
@@ -166,7 +168,11 @@ img{
 		margin-top: -2vh !important;
 	}
 }
-
+.l-mgt_-4_s{
+	@include mq(sp){
+		margin-top: -4vh !important;
+	}
+}
 
 
 // 下のみ
