@@ -340,6 +340,15 @@ img {
   }
 }
 
+.l-mgb_15 {
+  margin-bottom: 10vh !important;
+}
+@media screen and (min-width: 767px) {
+  .l-mgb_15 {
+    margin-bottom: 15vh !important;
+  }
+}
+
 .l-mgb_20 {
   margin-bottom: 10vh !important;
 }
@@ -369,7 +378,7 @@ img {
 }
 
 .l-pdt_5 {
-  padding-top: 2.5vh !important;
+  padding-top: 3.5vh !important;
 }
 @media screen and (min-width: 767px) {
   .l-pdt_5 {
@@ -605,6 +614,22 @@ img {
     height: 60vh;
   }
 }
+.l-contents.-btnArea.-v02 {
+  height: 40vh;
+}
+@media screen and (min-width: 767px) {
+  .l-contents.-btnArea.-v02 {
+    height: 40vh;
+  }
+}
+.l-contents.-btnArea.-v03 {
+  height: 34vh;
+}
+@media screen and (min-width: 767px) {
+  .l-contents.-btnArea.-v03 {
+    height: 38vh;
+  }
+}
 .l-contents.-btnArea .l-contentsBox {
   position: absolute;
 }
@@ -617,11 +642,12 @@ img {
 @media screen and (min-width: 767px) {
   .l-contents.-btnArea .l-contentsBox.-setsubiBtn {
     top: 25%;
+    left: 52%;
     width: 20%;
   }
 }
 .l-contents.-btnArea .l-contentsBox.-contact-column3 {
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
@@ -737,7 +763,7 @@ img {
 }
 .l-flex--area .l-flex--contents.-columnBox03 .flexItem {
   width: 100%;
-  padding: 0 3%;
+  padding: 0 10%;
 }
 @media screen and (min-width: 767px) {
   .l-flex--area .l-flex--contents.-columnBox03 .flexItem {
@@ -2071,32 +2097,11 @@ img {
   font-weight: bold !important;
 }
 .l-text.-family01 {
-  font-family: "shippori-mincho", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "futura-pt", sans-serif;
+  font-style: italic;
 }
 .l-text.-family02 {
-  font-family: "yu-gothic-pr6n", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.l-text.-family03 {
-  font-family: "source-han-sans-japanese", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.l-text.-family04 {
-  font-family: "garamond-premier-pro-display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.l-text.-family05 {
-  font-family: "メイリオ", "Meiryo", sans-serif;
-}
-.l-text.-family06 {
-  font-family: "trajan-pro-3", serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 .l-text.-REQUEST {
   background: white;

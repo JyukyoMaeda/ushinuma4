@@ -112,6 +112,18 @@
 		@include mq(tb){
 			height: 60vh;
 		}
+		&.-v02{
+			height: 40vh;
+			@include mq(tb){
+				height: 40vh;
+			}
+		}
+		&.-v03{
+			height: 34vh;
+			@include mq(tb){
+				height: 38vh;
+			}
+		}
 		.l-contentsBox{
 			position: absolute;
 			&.-setsubiBtn{
@@ -121,11 +133,12 @@
 				width: 45%;
 				@include mq(tb){
 					top: 25%;
+					left: 52%;
 					width: 20%;
 				}
 			}
 			&.-contact-column3{
-				top: 65%;
+				top: 60%;
 				left: 50%;
 				transform: translate(-50%,-50%);
 

@@ -313,33 +313,14 @@
 
     // 形
     &.-family01{//しっぽり明朝
-        font-family: "shippori-mincho", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "futura-pt", sans-serif;
+        // font-weight: 600;
+        font-style: italic;
     }
-    &.-family02{//A1MinchoStd Bold代用
-        font-family: "yu-gothic-pr6n", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    &.-family02{//遊ゴシック
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     }
-    &.-family03{//しっぽり
-        font-family: "source-han-sans-japanese", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-    &.-family04{//garamond
-        font-family: "garamond-premier-pro-display", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    &.-family05{//メイリオ
-        font-family:'メイリオ', 'Meiryo', sans-serif;
-    }
-    &.-family06{//Trajan
-        font-family: "trajan-pro-3", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
+
 
     &.-REQUEST{
         background: white;

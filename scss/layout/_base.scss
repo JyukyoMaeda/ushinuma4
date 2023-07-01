@@ -253,6 +253,12 @@ img{
 		margin-bottom: 10vh !important;
 	}
 }
+.l-mgb_15{
+	margin-bottom : 10vh !important;
+	@include mq(tb){
+		margin-bottom: 15vh !important;
+	}
+}
 .l-mgb_20{
 	margin-bottom : 10vh !important;
 	&.-s_1{
@@ -283,7 +289,7 @@ img{
 // 幅調整用 padding = 要素内の空間
 // 上のみ
 .l-pdt_5{
-	padding-top : 2.5vh !important;
+	padding-top : 3.5vh !important;
 	@include mq(tb){
 		padding-top: 5vh !important;
 	}
