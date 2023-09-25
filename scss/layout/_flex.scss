@@ -99,6 +99,39 @@
 					}
 				}
 		}
+		&.-btnArea_20230925{
+			display: flex;
+			flex-wrap: wrap;
+			@include mq(tb){
+				flex-wrap: nowrap;
+				justify-content: space-around;
+			}
+			.flexItem{
+				width: 100%;
+				padding: 0 5%;
+				@include mq(tb){
+					width: 50%;
+					padding: 0 2%;
+				}
+				&.-setsubiBtn{
+					@include mq(sp){
+						padding: 0 18%;
+					}
+				}
+			}
+			&.-w_7-3{
+				@include mq(tb){
+					.flexItem{
+						&:first-child{
+							width: 60%;
+						}
+						&:last-child{
+							width: 30%;
+						}
+					}
+				}
+			}
+		}
 		&.-columnBox03{
 			display: flex;
 			flex-wrap: wrap;
@@ -108,7 +141,7 @@
 			}
 			.flexItem{
 				width: 100%;
-				padding: 0 10%;
+				padding: 0 5%;
 				@include mq(tb){
 					width: 33.3333%;
 					padding: 0 2%;
